@@ -134,18 +134,26 @@ header nav ul li a:hover {
 }
 
 a.btn{
-    background-color: rgb(72, 233, 136);
+    background-color: #48bb78;
     color: white;
     display: inline-block;
     padding: 12px 24px;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 5px;
     white-space: nowrap;
 }
 
 .story-img{
     height: 150px;
     border-radius: 50%;
+}
+
+.stories h2{
+    color: #5a67d8;
+}
+
+.stories h3{
+    font-size: 18px;
 }
 
 .stories article{
@@ -156,13 +164,13 @@ a.btn{
 }
 
 .article-body p a{
-    color: rgb(84, 123, 233);
+    color: #5a67d8;
     text-decoration: none;
     font-weight: bold;
 }
 
 .newsletter {
-    background-color: rgb(84, 203, 122);
+    background-color: #48bb78;
     padding-bottom: 50px;
     padding-top: 10px;
    
@@ -213,7 +221,7 @@ input[type="email"]::placeholder {
 }
 
 button[type="submit"] {
-    background-color: rgb(77, 112, 208);
+    background-color: #5a67d8;
     border: none;
     height: 40.8px;
     width: 120px;
@@ -223,7 +231,7 @@ button[type="submit"] {
 }
 
 footer {
-   background-color: rgb(72, 85, 102);
+   background-color: #4a5568;
    padding-top: 20px;
    padding-bottom: 20px;
    color: white;
