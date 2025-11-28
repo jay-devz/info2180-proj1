@@ -95,5 +95,60 @@ header nav ul li a:hover {
     border-width: 2px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 28px;
+}
+
+.testing {
+    background-color: rgb(72, 85, 102);
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.testing .container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    padding-left: 20px;
+    color: white;
+    position: relative;
+}
+
+.testing-description{
+   width: 500px;
+   padding-left: 100px;
+
+}
+
+.testing .cta {
+    position: relative;
+    right: -40px
+}
+
+a.btn{
+    background-color: rgb(72, 233, 136);
+    color: white;
+    display: inline-block;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+.story-img{
+    height: 150px;
+    border-radius: 50%;
+}
+
+.stories article{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.article-body p a{
+    color: rgb(84, 123, 233);
+    text-decoration: none;
+    font-weight: bold;
 }
