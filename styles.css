@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -10,7 +10,6 @@ body {
     width: 100%;
 }
 
-/* Header Styles */
 header {
     background-color: #ffffff;
     padding: 20px 0;
@@ -49,7 +48,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #5e35b1;
+    color: #5a67d8;
 }
 
 
@@ -61,7 +60,7 @@ header nav ul li a:hover {
     display: flex;
     flex-direction: row;
     gap: 50px;
-    background-color: rgb(230, 237, 241);
+    background-color: #e2e8f0;
     padding-top: 8px;
 
 }
@@ -71,6 +70,15 @@ header nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     width: 500px;
+}
+
+.learn-about h2{
+    font-size: 24px;
+}
+
+.learn-about h3{
+    font-size: 21px;
+    color: #48bb78;
 }
 
 .card-img {
@@ -90,8 +98,8 @@ header nav ul li a:hover {
 }
 
 .card {
-    border-color: #000000;
-    border-radius: 8px;
+    border-color: #e2e8f0;
+    border-radius: 5px;
     border-width: 2px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     padding: 20px;
@@ -99,7 +107,7 @@ header nav ul li a:hover {
 }
 
 .testing {
-    background-color: rgb(72, 85, 102);
+    background-color: #4a5568;
     padding-top: 40px;
     padding-bottom: 80px;
 }
@@ -151,4 +159,73 @@ a.btn{
     color: rgb(84, 123, 233);
     text-decoration: none;
     font-weight: bold;
+}
+
+.newsletter {
+    background-color: rgb(84, 203, 122);
+    padding-bottom: 50px;
+    padding-top: 10px;
+   
+}
+
+.newsletter h3 {
+    color: white;
+}
+
+.newsletter .container {
+    text-align: center;
+}
+
+
+.newsletter .container form {
+    display: flex;
+    gap: 32px;  
+    align-items: center;
+    justify-content: center; 
+    margin: 0 auto;
+}
+
+.newsletter .form-group {
+    flex: 1; 
+    max-width: 300px;
+}
+
+.newsletter p{
+    width: 450px;
+    text-align: left;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+}
+
+form {
+    padding-top: 20px;
+}
+
+input[type="email"] {
+   width: 100%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+}
+
+input[type="email"]::placeholder {
+    color: #ccc;
+}
+
+button[type="submit"] {
+    background-color: rgb(77, 112, 208);
+    border: none;
+    height: 40.8px;
+    width: 120px;
+    color: white;
+    border-radius: 3px;
+
+}
+
+footer {
+   background-color: rgb(72, 85, 102);
+   padding-top: 20px;
+   padding-bottom: 20px;
+   color: white;
+
 }
